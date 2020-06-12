@@ -147,7 +147,7 @@ class app:
 
 
 
-ses = input('Enter Sessionid : ')
+ses = input('Enter Sessionid : ').strip()
 time = int(input('Enter sleep (biggest then 38) : '))
 com = input('Enter Comment : ')#
 
