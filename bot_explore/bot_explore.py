@@ -5,7 +5,7 @@ from random import choice
 
 # Demo bot_explore app :)
 # instagram : https://www.instagram.com/pyby0
-# Login Cookies 
+# Login sessionid 
 
 usera_list  = []
 file = json.load(open('use.json'))# json file
@@ -147,12 +147,9 @@ class app:
 
 
 
-
-'33715125622:zqGnWh73xvUhCF:12'
 ses = input('Enter Sessionid : ')
 time = int(input('Enter sleep (biggest then 38) : '))
 com = input('Enter Comment : ')#
-#ذا شفت الرسالة ذي رد بنقطه :>
+
 app(ses,time,com)
 
-'32288547846%3AjTj4GzMgmFARnh%3A25'
